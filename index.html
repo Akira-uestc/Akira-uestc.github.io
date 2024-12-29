@@ -1,89 +1,243 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akira's Blog</title>
-    <!-- 设置页面样式 -->
-    <link rel="stylesheet" href="styles.css">
-    <!-- 设置字体为 JetBrains Mono Nerd Font -->
-    <style>
-        body {
-            font-family: 'JetBrains Mono Nerd Font', monospace;
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0,viewport-fit=cover"><title>叉依姬神社</title><meta name="author" content="Akira"><meta name="copyright" content="Akira"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta property="og:type" content="website">
+<meta property="og:title" content="叉依姬神社">
+<meta property="og:url" content="https://akira-uestc.github.io/index.html">
+<meta property="og:site_name" content="叉依姬神社">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://akira-uestc.github.io/img/Akira.jpg">
+<meta property="article:author" content="Akira">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://akira-uestc.github.io/img/Akira.jpg"><link rel="shortcut icon" href="/img/Akira.jpg"><link rel="canonical" href="https://akira-uestc.github.io/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css?v=4.13.0"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlight.js","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '天',
+  dateSuffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  infinitegrid: {
+    js: 'https://cdn.jsdelivr.net/npm/@egjs/infinitegrid@4.11.1/dist/infinitegrid.min.js',
+    buttonText: '加载更多'
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false,
+  percent: {
+    toc: true,
+    rightside: false,
+  },
+  autoDarkmode: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: '叉依姬神社',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2024-12-29 20:22:18'
+}</script><script>(win=>{
+      win.saveToLocal = {
+        set: (key, value, ttl) => {
+          if (ttl === 0) return
+          const now = Date.now()
+          const expiry = now + ttl * 86400000
+          const item = {
+            value,
+            expiry
+          }
+          localStorage.setItem(key, JSON.stringify(item))
+        },
+      
+        get: key => {
+          const itemStr = localStorage.getItem(key)
+      
+          if (!itemStr) {
+            return undefined
+          }
+          const item = JSON.parse(itemStr)
+          const now = Date.now()
+      
+          if (now > item.expiry) {
+            localStorage.removeItem(key)
+            return undefined
+          }
+          return item.value
         }
-    </style>
-</head>
-<body>
-    <!-- 页眉部分 -->
-<header>
-    <div class="container">
-        <nav style="display: flex; align-items: center; justify-content: flex-start; gap: 20px;">
-            <h1>Akira's Blog</h1>
-            <ul style="list-style: none; display: flex; gap: 20px; margin: 0; padding: 0;">
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/About/me.html">About</a></li>
-                <li><a href="/Archive/index.html">Archive</a></li>
-                <li><a href="/Contact/index.html">Contact</a></li>
+      }
+    
+      win.getScript = (url, attr = {}) => new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = url
+        script.async = true
+        script.onerror = reject
+        script.onload = script.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          script.onload = script.onreadystatechange = null
+          resolve()
+        }
 
-            </ul>
-        </nav>
-    </div>
-</header>
+        Object.keys(attr).forEach(key => {
+          script.setAttribute(key, attr[key])
+        })
+
+        document.head.appendChild(script)
+      })
+    
+      win.getCSS = (url, id = false) => new Promise((resolve, reject) => {
+        const link = document.createElement('link')
+        link.rel = 'stylesheet'
+        link.href = url
+        if (id) link.id = id
+        link.onerror = reject
+        link.onload = link.onreadystatechange = function() {
+          const loadState = this.readyState
+          if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+          link.onload = link.onreadystatechange = null
+          resolve()
+        }
+        document.head.appendChild(link)
+      })
+    
+      win.activateDarkMode = () => {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = () => {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+        if (t === 'dark') activateDarkMode()
+        else if (t === 'light') activateLightMode()
+      
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+      const detectApple = () => {
+        if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+          document.documentElement.classList.add('apple')
+        }
+      }
+      detectApple()
+    })(window)</script><meta name="generator" content="Hexo 7.3.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/img/Akira.jpg" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><hr class="custom-hr"/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 本站</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> books</span></a></li><li><a class="site-page child" href="/anime/"><i class="fa-fw fas fa-video"></i><span> anime</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header" style="background-image: url('/img/frontpage.png')"><nav id="nav"><span id="blog-info"><a href="/" title="叉依姬神社"><span class="site-name">叉依姬神社</span></a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 本站</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-list"></i><span> 清单</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/books/"><i class="fa-fw fas fa-book"></i><span> books</span></a></li><li><a class="site-page child" href="/anime/"><i class="fa-fw fas fa-video"></i><span> anime</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> About</span></a></div></div><div id="toggle-menu"><a class="site-page" href="javascript:void(0);"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">叉依姬神社</h1><div id="site-subtitle"><span id="subtitle"></span></div><div id="site_social_icons"><a class="social-icon" href="https://github.com/Akira-uestc" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:akira.uestc@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/22/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/" title="用树莓派和docker搭建软路由">用树莓派和docker搭建软路由</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-22T10:42:22.000Z" title="发表于 2024-10-22 18:42:22">2024-10-22</time></span></div><div class="content">docker安装与配置从脚本安装:123456$ curl -fsSL https://get.docker.com -o get-docker.sh# 如果没有执行权限$ chmod +x ./get-docker.sh$ sudo ./get-docker.sh
+从软件源安装:(请勿在配置好软件源之前安装docker包)
+12345678910$ curl -fsSL https://download.docker.com/linux/raspbian/gpg | sudo apt-key add -$ sudo add-apt-repository \    &quot;deb [arch=armhf] https://mirrors.aliyun.com/docker-ce/linux/raspbian \    $(lsb_release -cs) \    stable&quot;    $ sudo apt-get update$ sudo apt-get install docker-ce
+将用户添加到docker组:1sudo usermod -aG docker $ ...</div></div></div><div class="recent-post-item"><div class="recent-post-info no-cover"><a class="article-title" href="/2024/10/22/%E4%BD%BF%E7%94%A8c%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84shell/" title="使用c编写一个简单的shell">使用c编写一个简单的shell</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-10-22T10:41:56.000Z" title="发表于 2024-10-22 18:41:56">2024-10-22</time></span></div><div class="content">目标本文旨在实现一个简易的shell程序
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/08/24/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" title="verilator入门笔记"><img class="post-bg" src="/img/cover/verilator.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="verilator入门笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/08/24/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" title="verilator入门笔记">verilator入门笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-08-23T16:38:49.000Z" title="发表于 2024-08-24 00:38:49">2024-08-24</time></span></div><div class="content">verilator主页
+安装linuxarchlinux:
+sudo pacman -S verilator
+debian/ubuntu
+sudo apt-get install verilator
+windows使用wsl或MinGW/Cygwin编译安装
+编译安装12345git clone https://github.com/verilator/verilatorautoconf./configuremake -j `nproc`sudo make install
+常用参数解释
+—cc 生成C库
+—sc 生成systemc
+—exe 包含测试程序创建makefile生成模拟可执行文件
+—build 自动调用编译器构建最终的可执行文件
+—binary 生成二进制文件
+—trace 允许执行程序时生成波形文件
+—trace-fst 生成fst格式的波形文件
+
+项目创建创建一个工程文件夹
+mkdir vtest ; cd vtest
+分别为verilog和c++测试程序创建文件夹
+mkdir csrc vsrc
+编写verilog程序vim vsrc/our_OnOff.v
+1234 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2024/06/10/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/" title="通信知识点总结"><img class="post-bg" src="/img/cover/tongxin.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="通信知识点总结"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/06/10/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/" title="通信知识点总结">通信知识点总结</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-06-10T14:56:42.000Z" title="发表于 2024-06-10 22:56:42">2024-06-10</time></span></div><div class="content">概述时延
+发送时延：主机或路由器发送数据帧所需要的时间
+
+$发送时延=\frac{数据帧长度}{信道带宽}$
+
+传播时延：指电磁波在信道中传播一定距离所花费的时间
+
+$传播时延=\frac{信道长度}{信道传输速率}$
+
+处理时延：主机或网络结点(路由器或交换机) 处理分组所花费的时间
+
+排队时延：分组进入网络结点后，需先在输入队列中排队等待处理，以及处理完毕后在输出队列中排队等待转发的时间，分组丢失时排队时延为无穷大
+
+总时延 = 发送时延 + 传播时延 + 处理时延+ 排队时延
 
 
-    <!-- 主内容部分 -->
-    <main class="container">
-        <section class="blog-posts">
-             <article class="post">
-                <h2>用树莓派和docker搭建软路由</h2>
-                <p class="meta">Posted on <time datetime="2024-11-01">November 01, 2024</time> by <a href="/About/me.html">Akira</a></p>
-                <p>Use Raspberry Pi and docker to build a soft router.</p>
-                <a href="/post/用树莓派和docker搭建软路由/用树莓派和docker搭建软路由.html" class="read-more">Read More</a>
-            </article>
+往返时间从发送端发送数据开始，到发送端收到来自接收端的确认应答所经历的全部时间。如果接收端收到数据后立即发送确认，这相当于传播时延的两倍
+时延带宽积和利用率
+$时延带宽积=传播时延\cdot带宽$
 
-             <article class="post">
-                <h2>使用c编写一个简单的shell</h2>
-                <p class="meta">Posted on <time datetime="2024-10-22">October 22, 2024</time> by <a href="/About/me.html">Akira</a></p>
-                <p>Write a simple shell using c.</p>
-                <a href="/post/使用c编写一个简单的shell/使用c编写一个简单的shell.html" class="read-more">Read More</a>
-            </article>
 
-            <article class="post">
-                <h2>verilator入门笔记</h2>
-                <p class="meta">Posted on <time datetime="2024-08-24">August 24, 2024</time> by <a href="/About/me.html">Akira</a></p>
-                <p>Usage of verilator.</p>
-                <a href="/post/verilator入门笔记/verilator入门笔记.html" class="read-more">Read More</a>
-            </article>
 
-            <article class="post">
-                <h2>通信知识点总结</h2>
-                <p class="meta">Posted on <time datetime="2024-06-10">June 10, 2024</time> by <a href="/About/me.html">Akira</a></p>
-                <p>A brief summary of the computer network foundation course.</p>
-                <a href="/post/通信知识点总结/通信知识点总结.html" class="read-more">Read More</a>
-            </article>
+信道利用率：指在规定时间内信道上用于传输数据的时间比例。完全空闲的信道的利用率是零
 
-            <article class="post">
-                <h2>ARM汇编笔记</h2>
-                <p class="meta">Posted on <time datetime="2024-04-08">April 08, 2024</time> by <a href="/About/me.html">Akira</a></p>
-                <p>Introduction to ARM assembly.</p>
-                <a href="/post/ARM汇编笔记/ARM汇编笔记.html" class="read-more">Read More</a>
-            </article>
+网络利用率：指全网络的信道利用率的加权平均值
 
-            <article class="post">
-                <h2>The Beginning.</h2>
-                <p class="meta">Posted on <time datetime="2023-09-06">September 06, 2024</time> by <a href="/About/me.html">Akira</a></p>
-                <p>Just a test post.</p>
-                <a href="/post/The-Beginning/index.html" class="read-more">Read More</a>
-            </article>
-        </section>
-    </main>
 
-    <!-- 页脚部分 -->
-    <footer>
-        <div class="container">
-            <p>&copy; 2023-2024 Akira's Blog. All Rights Reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
+$D=\frac{D_0}{1-U}$ (D0 表示网络空闲时的时延，D 表示网络当前的时延。U 表示信道利用率)
+网络模型OSI：
 
+应用层
+
+表示层
+
+会话层
+
+传 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/2024/04/28/ARM%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/" title="ARM汇编笔记"><img class="post-bg" src="/img/cover/assembly.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ARM汇编笔记"></a></div><div class="recent-post-info"><a class="article-title" href="/2024/04/28/ARM%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/" title="ARM汇编笔记">ARM汇编笔记</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2024-04-27T16:19:32.000Z" title="发表于 2024-04-28 00:19:32">2024-04-28</time></span></div><div class="content">ARM 汇编指令简介ARM处理器是精简指令集计算 Reduced Instruction Set Computing (RISC)的一个实例。ARM指令集是基于精简指令集计算机(RISC)设计的，其指令集的译码机制相对比较简单，ARMv7-A具有32bit的ARM指令集和16/32bit的Thumb/Thumb-2指令集，ARM指令集的优点是执行效率高但不足之处也很明显，就是代码密度相对低一些。而作为ARM指令集子集的Thumb指令集，代码密度相对比ARM指令高，而且坚持了ARM一贯的性能优但也有一个致命的缺点就是效率低。正所谓鱼和熊掌不可兼得，这也是数字逻辑电路设计所谓的时间和空间的问题；而Thumb-2指令集多为32bit的指令，对于上述的ARM指令和Thumb指令做了一个折中，代码执行效率和密度都相对比较适中，几乎所有的ARM指令都可以条件执行，而另外两者仅有部分才具备此功能，三种指令均可相互调用，而且指令之间状态切换开销很小，几乎可以忽略。  
+一、ARM指令集格式基本格式： &lt;opcode&gt; &#123;&lt;cond&gt;&#125; &#123;S&#12 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/2023/09/06/The-Beginning/" title="The Beginning"><img class="post-bg" src="/img/cover/test.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="The Beginning"></a></div><div class="recent-post-info"><a class="article-title" href="/2023/09/06/The-Beginning/" title="The Beginning">The Beginning</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2023-09-06T14:34:42.000Z" title="发表于 2023-09-06 22:34:42">2023-09-06</time></span></div><div class="content">Hello World!
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/img/Akira.jpg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Akira</div><div class="author-info__description"></div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">6</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">3</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">0</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/Akira-uestc"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/Akira-uestc" target="_blank" title="Github"><i class="fab fa-github" style="color: #24292e;"></i></a><a class="social-icon" href="mailto:akira.uestc@gmail.com" target="_blank" title="Email"><i class="fas fa-envelope" style="color: #4a7dbe;"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">Welcome to Akira's blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/22/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/" title="用树莓派和docker搭建软路由">用树莓派和docker搭建软路由</a><time datetime="2024-10-22T10:42:22.000Z" title="发表于 2024-10-22 18:42:22">2024-10-22</time></div></div><div class="aside-list-item no-cover"><div class="content"><a class="title" href="/2024/10/22/%E4%BD%BF%E7%94%A8c%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84shell/" title="使用c编写一个简单的shell">使用c编写一个简单的shell</a><time datetime="2024-10-22T10:41:56.000Z" title="发表于 2024-10-22 18:41:56">2024-10-22</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/08/24/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" title="verilator入门笔记"><img src="/img/cover/verilator.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="verilator入门笔记"/></a><div class="content"><a class="title" href="/2024/08/24/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/" title="verilator入门笔记">verilator入门笔记</a><time datetime="2024-08-23T16:38:49.000Z" title="发表于 2024-08-24 00:38:49">2024-08-24</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/06/10/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/" title="通信知识点总结"><img src="/img/cover/tongxin.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="通信知识点总结"/></a><div class="content"><a class="title" href="/2024/06/10/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/" title="通信知识点总结">通信知识点总结</a><time datetime="2024-06-10T14:56:42.000Z" title="发表于 2024-06-10 22:56:42">2024-06-10</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2024/04/28/ARM%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/" title="ARM汇编笔记"><img src="/img/cover/assembly.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="ARM汇编笔记"/></a><div class="content"><a class="title" href="/2024/04/28/ARM%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/" title="ARM汇编笔记">ARM汇编笔记</a><time datetime="2024-04-27T16:19:32.000Z" title="发表于 2024-04-28 00:19:32">2024-04-28</time></div></div></div></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/test/" style="font-size: 1.1em; color: #999">test</a> <a href="/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" style="font-size: 1.5em; color: #99a9bf">计算机</a> <a href="/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/" style="font-size: 1.1em; color: #999">嵌入式</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/10/"><span class="card-archive-list-date">十月 2024</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/08/"><span class="card-archive-list-date">八月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/06/"><span class="card-archive-list-date">六月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2024/04/"><span class="card-archive-list-date">四月 2024</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2023/09/"><span class="card-archive-list-date">九月 2023</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">6</div></div><div class="webinfo-item"><div class="item-name">已运行时间 :</div><div class="item-count" id="runtimeshow" data-publishDate="2023-09-05T16:00:00.000Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总字数 :</div><div class="item-count">10k</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"><i class="fa-solid fa-spinner fa-spin"></i></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2024-12-29T12:22:18.575Z"><i class="fa-solid fa-spinner fa-spin"></i></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2023 - 2024 By Akira</div><div class="footer_custom_text">嘤其鸣矣，求其友声</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside-config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><span class="scroll-percent"></span><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js?v=4.13.0"></script><script src="/js/main.js?v=4.13.0"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0.33/dist/fancybox/fancybox.umd.min.js"></script><div class="js-pjax"><script>window.typedJSFn = {
+  init: (str) => {
+    window.typed = new Typed('#subtitle', Object.assign({
+      strings: str,
+      startDelay: 300,
+      typeSpeed: 150,
+      loop: true,
+      backSpeed: 50,
+    }, null))
+  },
+  run: (subtitleType) => {
+    if (true) {
+      if (typeof Typed === 'function') {
+        subtitleType()
+      } else {
+        getScript('https://cdn.jsdelivr.net/npm/typed.js@2.1.0/dist/typed.umd.min.js').then(subtitleType)
+      }
+    } else {
+      subtitleType()
+    }
+  }
+}
+</script><script>function subtitleType () {
+  if (true) {
+    typedJSFn.init(["図書室でしか見たことない世界 確かめたい"])
+  } else {
+    document.getElementById("subtitle").textContent = "図書室でしか見たことない世界 確かめたい"
+  }
+}
+typedJSFn.run(subtitleType)</script></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc@1.1.3/dist/fireworks.min.js"></script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
