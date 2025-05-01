@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>操作系统 on Akira&#39;s blog</title>
+    <link>http://localhost:1313/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+    <description>Recent content in 操作系统 on Akira&#39;s blog</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
+    <webMaster>akira.uestc@gmail.com (Akira)</webMaster>
+    <lastBuildDate>Thu, 20 Feb 2025 01:15:04 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>系统调用实现（RISC V）</title>
+      <link>http://localhost:1313/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</link>
+      <pubDate>Thu, 20 Feb 2025 01:15:04 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
+      <guid>http://localhost:1313/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
