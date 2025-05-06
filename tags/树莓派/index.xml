@@ -8,8 +8,15 @@
     <language>zh-cn</language>
     <managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
     <webMaster>akira.uestc@gmail.com (Akira)</webMaster>
-    <lastBuildDate>Tue, 22 Oct 2024 10:42:54 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 07 May 2025 01:38:31 +0800</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>树莓派5串口调试</title>
+      <link>http://localhost:1313/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</link>
+      <pubDate>Wed, 07 May 2025 01:38:31 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
+      <guid>http://localhost:1313/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</guid>
+      <description>在树莓派5上使用串口与外部设备通信时碰到的问题及解决</description>
+    </item>
     <item>
       <title>用树莓派和docker搭建软路由</title>
       <link>http://localhost:1313/posts/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/</link>
