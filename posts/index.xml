@@ -1,78 +1,78 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Akira&#39;s blog</title>
-        <link>http://localhost:1313/posts/</link>
+        <link>https://akira-uestc.github.io/posts/</link>
         <description>All Posts | Akira&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
-            <webMaster>akira.uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>akira.uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/posts/" rel="self" type="application/rss+xml" /><item>
     <title>使用xwayland运行ros&#43;gazebo&#43;rviz</title>
-    <link>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</link>
+    <link>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</link>
     <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</guid>
-    <description><![CDATA[在arch linux下通过docker运行ros，并通过xwayland运行机器人仿真]]></description>
+    </author><guid>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</guid>
+    <description><![CDATA[在 Arch Linux 下通过 Docker 运行 ROS Noetic 并通过 XWayland 显示机器人仿真 GUI，包括 Gazebo 与 RViz 的可视化支持]]></description>
 </item><item>
     <title>模式识别</title>
-    <link>http://localhost:1313/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</link>
+    <link>https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</link>
     <pubDate>Sun, 25 May 2025 15:32:58 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</guid>
     <description><![CDATA[模式识别期末考试知识点总结]]></description>
 </item><item>
     <title>树莓派5串口调试</title>
-    <link>http://localhost:1313/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</link>
+    <link>https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</link>
     <pubDate>Wed, 07 May 2025 01:38:31 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</guid>
     <description><![CDATA[在树莓派5上使用串口与外部设备通信时碰到的问题及解决]]></description>
 </item><item>
     <title>工程数学基础</title>
-    <link>http://localhost:1313/posts/%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
+    <link>https://akira-uestc.github.io/posts/%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
     <pubDate>Thu, 03 Apr 2025 01:08:24 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</guid>
     <description><![CDATA[Dr_can 工程数学基础课程笔记，包含线性代数、微积分、概率论等]]></description>
 </item><item>
     <title>系统调用实现（RISC V）</title>
-    <link>http://localhost:1313/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</link>
+    <link>https://akira-uestc.github.io/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</link>
     <pubDate>Thu, 20 Feb 2025 01:15:04 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</guid>
     <description><![CDATA[分析了rCore的系统调用实现]]></description>
 </item><item>
     <title>RISC V的中断和异常机制</title>
-    <link>http://localhost:1313/posts/risc-v%E7%9A%84%E4%B8%AD%E6%96%AD%E5%92%8C%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</link>
+    <link>https://akira-uestc.github.io/posts/risc-v%E7%9A%84%E4%B8%AD%E6%96%AD%E5%92%8C%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</link>
     <pubDate>Wed, 19 Feb 2025 10:15:05 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/risc-v%E7%9A%84%E4%B8%AD%E6%96%AD%E5%92%8C%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/risc-v%E7%9A%84%E4%B8%AD%E6%96%AD%E5%92%8C%E5%BC%82%E5%B8%B8%E6%9C%BA%E5%88%B6/</guid>
     <description><![CDATA[分析了RISC V的中断和异常机制,包含特权模式、异常和中断类型、控制状态寄存器、处理过程等]]></description>
 </item><item>
     <title>用树莓派和docker搭建软路由</title>
-    <link>http://localhost:1313/posts/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/</link>
+    <link>https://akira-uestc.github.io/posts/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/</link>
     <pubDate>Tue, 22 Oct 2024 10:42:54 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E7%94%A8%E6%A0%91%E8%8E%93%E6%B4%BE%E5%92%8Cdocker%E6%90%AD%E5%BB%BA%E8%BD%AF%E8%B7%AF%E7%94%B1/</guid>
     <description><![CDATA[使用树莓派搭建软路由，并使用docker安装openwrt部署openclash服务，实现透明代理]]></description>
 </item><item>
     <title>使用c编写一个简单的shell</title>
-    <link>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8c%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84shell/</link>
+    <link>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8c%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84shell/</link>
     <pubDate>Tue, 22 Oct 2024 10:41:33 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E4%BD%BF%E7%94%A8c%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84shell/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8c%E7%BC%96%E5%86%99%E4%B8%80%E4%B8%AA%E7%AE%80%E5%8D%95%E7%9A%84shell/</guid>
     <description><![CDATA[编程练习，使用C实现shell,包含基本的执行系统中的某个可执行文件功能，和执行内建命令、支持管道符和重定向符、执行脚本文件的实现]]></description>
 </item><item>
     <title>Verilator入门笔记</title>
-    <link>http://localhost:1313/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+    <link>https://akira-uestc.github.io/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
     <pubDate>Fri, 23 Aug 2024 16:38:34 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[在“一生一芯”学习阶段，使用verilator进行仿真，学习了基本命令和使用方法，并提供了一个波形显示模板]]></description>
 </item><item>
     <title>通信知识点总结</title>
-    <link>http://localhost:1313/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</link>
+    <link>https://akira-uestc.github.io/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</link>
     <pubDate>Mon, 10 Jun 2024 14:56:34 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>http://localhost:1313/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</guid>
     <description><![CDATA[计算机网络课程期末复习知识点总结]]></description>
 </item></channel>
 </rss>

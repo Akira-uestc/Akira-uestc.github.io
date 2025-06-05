@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ARM on Akira&#39;s blog</title>
-    <link>http://localhost:1313/tags/arm/</link>
+    <link>https://akira-uestc.github.io/tags/arm/</link>
     <description>Recent content in ARM on Akira&#39;s blog</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
     <managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
     <webMaster>akira.uestc@gmail.com (Akira)</webMaster>
     <lastBuildDate>Sun, 28 Apr 2024 00:12:32 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/arm/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://akira-uestc.github.io/tags/arm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ARM汇编笔记</title>
-      <link>http://localhost:1313/posts/arm%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/</link>
+      <link>https://akira-uestc.github.io/posts/arm%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Sun, 28 Apr 2024 00:12:32 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>http://localhost:1313/posts/arm%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/</guid>
+      <guid>https://akira-uestc.github.io/posts/arm%E6%B1%87%E7%BC%96%E7%AC%94%E8%AE%B0/</guid>
       <description>ARM汇编指令简介，包含基本格式、寻址方式、指令分类等</description>
     </item>
   </channel>
