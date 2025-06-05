@@ -434,7 +434,7 @@
 </span></span><span style="display:flex;"><span>}</span></span></code></pre>
 </div>
 <p>用户通过标准库的接口执行syscall</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -540,7 +540,7 @@
 </div>
 <p>标准库的syscall函数通过汇编保存返回地址，系统调用号和参数，并执行ecall切换到S模式</p>
 <h3 id="自陷处理程序" class="headerLink">
-    <a href="#%e8%87%aa%e9%99%b7%e5%a4%84%e7%90%86%e7%a8%8b%e5%ba%8f" class="header-mark"></a>自陷处理程序</h3><div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+    <a href="#%e8%87%aa%e9%99%b7%e5%a4%84%e7%90%86%e7%a8%8b%e5%ba%8f" class="header-mark"></a>自陷处理程序</h3><div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -796,7 +796,7 @@
 </span></span><span style="display:flex;"><span>}</span></span></code></pre>
 </div>
 <p>通过trap::init()设置stvec，将用户模式调用ecall时的自陷处理程序设置为__alltraps，即上面的代码</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -919,7 +919,7 @@
 </div>
 <p>trap::trap_handler()</p>
 <p>设置scause和stval寄存器，通过scause判断异常/中断类型，并通过用户态保存在x17的系统调用号调用内核的syscall函数进入某个具体的系统调用（如下）</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -1023,7 +1023,7 @@
 </span></span><span style="display:flex;"><span>}</span></span></code></pre>
 </div>
 <p>进入具体实现后，一次内核调用便就此结束</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 

@@ -15,6 +15,7 @@
     <meta property="article:modified_time" content="2025-05-25T15:32:58+08:00">
     <meta property="article:tag" content="机器学习">
     <meta property="article:tag" content="模式识别">
+    <meta property="article:tag" content="期末复习">
     <meta property="og:image" content="https://akira-uestc.github.io/img/Akira.jpeg">
 
   <meta name="twitter:card" content="summary_large_image">
@@ -28,14 +29,14 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 
-<link rel="canonical" href="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" /><link rel="prev" href="https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/" /><link rel="next" href="https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/" />
+<link rel="canonical" href="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" /><link rel="prev" href="https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/" /><link rel="next" href="https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/" />
 <link rel="stylesheet" href="/css/main.min.css"><link rel="stylesheet" href="/css/style.min.css"><script type="application/ld+json">{"@context": "https://schema.org","@type": "BlogPosting",
         "headline": "模式识别",
         "inLanguage": "zh-cn",
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/"
-        },"genre": "posts","keywords":["机器学习","模式识别"],"wordcount":  294 ,
+        },"genre": "posts","keywords":["机器学习","模式识别","期末复习"],"wordcount":  294 ,
         "url": "https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/","datePublished": "2025-05-25T15:32:58+08:00","dateModified": "2025-05-25T15:32:58+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -302,11 +303,11 @@
   </ul>
 </nav></div>
             </div><div class="content" id="content" data-pagefind-body><h2 id="贝叶斯决策" class="headerLink">
-    <a href="#%e8%b4%9d%e5%8f%b6%e6%96%af%e5%86%b3%e7%ad%96" class="header-mark"></a>贝叶斯决策</h2><p>贝叶斯公式：
-$$
+    <a href="#%e8%b4%9d%e5%8f%b6%e6%96%af%e5%86%b3%e7%ad%96" class="header-mark"></a>贝叶斯决策</h2><p>贝叶斯公式：</p>
+<p>$$
 P(\omega_i | x)=\dfrac{P(\omega_i,x)}{P(x)}=\dfrac{P(x|\omega_i)P(\omega_i)}{P(x)}
-$$
-先验概率：$ P(\omega_i) $；后验概率：$ P(\omega_i | x)$</p>
+$$</p>
+<p>先验概率：$ P(\omega_i) $；后验概率：$ P(\omega_i | x)$</p>
 <p>总体密度：$P(x)$；联合概率密度：$ P(\omega_i,x) $；类条件概率密度：$ P(x|\omega_i)$</p>
 <h3 id="最小错误率" class="headerLink">
     <a href="#%e6%9c%80%e5%b0%8f%e9%94%99%e8%af%af%e7%8e%87" class="header-mark"></a>最小错误率</h3><p>$$
@@ -318,15 +319,15 @@ $$</p>
 <p>最小风险：$ minR(\alpha) = min \int R(\alpha(x)|x)p(x)$</p>
 <h3 id="正态分布贝叶斯" class="headerLink">
     <a href="#%e6%ad%a3%e6%80%81%e5%88%86%e5%b8%83%e8%b4%9d%e5%8f%b6%e6%96%af" class="header-mark"></a>正态分布贝叶斯</h3><p>$p(x|\omega_i) = \dfrac{1}{(2\pi)^{d/2}|\sum_i|^{1/2}}exp{-\frac{1}{2}(x-\mu_i)^{T}\sum_i^{T}(x-\mu_i)}$</p>
-<p>判别函数$g_i(x)=ln[p(x|\omega_i)P(\omega_i)]=$
-$$
+<p>判别函数$g_i(x)=ln[p(x|\omega_i)P(\omega_i)]=$</p>
+<p>$$
 -\frac{d}{2}ln2\pi - \frac{1}{2}ln|\sum_i|-\frac{1}{2}(x-\mu_i)^T\sum_i^{-1}(x-\mu_i)+ln[P(\omega_i)]
-$$
-决策面方程：$g_i(x)=g_j(x)$
-$$
+$$</p>
+<p>决策面方程：$g_i(x)=g_j(x)$</p>
+<p>$$
 -\frac{1}{2}[(x-\mu_i)^T\sum_i^{-1}(x-\mu_i)-(x-\mu_j)^T\sum_j^{-1}(x-\mu_j)]-\frac{1}{2}ln\dfrac{|\sum_i|}{|\sum_j|}+ ln\dfrac{P(\omega_i)}{P(\omega_j)}=0
-$$
-当$p(\omega_i)=p(\omega_j)$时，判别函数：</p>
+$$</p>
+<p>当$p(\omega_i)=p(\omega_j)$时，判别函数：</p>
 <p>$g_i(x)=-\dfrac{(x-\mu_i)^T(x-\mu_i)}{2\sigma^2}$</p>
 <p>即计算欧氏距离的平方并根据其最小值归类</p>
 <h2 id="概率密度函数估计" class="headerLink">
@@ -421,8 +422,8 @@ $$</p>
 <p>$$
 y_i^{&rsquo;}=y_i,y_i \in \omega_1 \
 -y_i,y_i \in \omega_2
-$$
-则解向量$\alpha$满足$\alpha^T y_i &gt; 0$</p>
+$$</p>
+<p>则解向量$\alpha$满足$\alpha^T y_i &gt; 0$</p>
 <p>感知器准则函数$J_p(\alpha)=  min\sum_{\alpha^T y_k \leq 0} (-\alpha^T y_k) = 0$</p>
 <h2 id="非线性感知器" class="headerLink">
     <a href="#%e9%9d%9e%e7%ba%bf%e6%80%a7%e6%84%9f%e7%9f%a5%e5%99%a8" class="header-mark"></a>非线性感知器</h2><h3 id="分段线性判别" class="headerLink">
@@ -437,29 +438,29 @@ $$</p>
 <h3 id="神经网络" class="headerLink">
     <a href="#%e7%a5%9e%e7%bb%8f%e7%bd%91%e7%bb%9c" class="header-mark"></a>神经网络</h3><p>BP神经网络</p>
 <h2 id="主成分分析" class="headerLink">
-    <a href="#%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90" class="header-mark"></a>主成分分析</h2><p>定义$\bold{x}$为原变量指标，$\bold{y}$为变换后的向量
-$$
+    <a href="#%e4%b8%bb%e6%88%90%e5%88%86%e5%88%86%e6%9e%90" class="header-mark"></a>主成分分析</h2><p>定义$\bold{x}$为原变量指标，$\bold{y}$为变换后的向量</p>
+<p>$$
 \bold{Y=XP}
-$$
-$\bold{P}$为负载矩阵，使得方差最大化</p>
+$$</p>
+<p>$\bold{P}$为负载矩阵，使得方差最大化</p>
 <p>对原始数据$\bold{X_0}$进行标准化：$\bold{X=(X_0-1\mu^T)\sum^{-1}}$</p>
-<p>PCA优化目标可表示为：
-$$
+<p>PCA优化目标可表示为：</p>
+<p>$$
 max\ tr[\bold{P^T X^T X P}/(n-1)],s.t.\ \bold{P^T P = I}
-$$
-采用拉格朗日乘子法，转化为特征值分解问题：
-$$
+$$</p>
+<p>采用拉格朗日乘子法，转化为特征值分解问题：</p>
+<p>$$
 (\bold{X^T X}/(n-1)\bold{p_i})=\lambda_i\bold{p_i}
-$$
-根据累计方差贡献率确定k个主成分：
-$$
+$$</p>
+<p>根据累计方差贡献率确定k个主成分：</p>
+<p>$$
 \sum_{i=1}^k\lambda_i/\sum_{i=1}^m\lambda_i &gt; threshold
-$$
-降维：
-$$
+$$</p>
+<p>降维：</p>
+<p>$$
 Y=XP
-$$
-$\bold{P}$为前k个特征向量组成的矩阵</p>
+$$</p>
+<p>$\bold{P}$为前k个特征向量组成的矩阵</p>
 <h2 id="近邻法" class="headerLink">
     <a href="#%e8%bf%91%e9%82%bb%e6%b3%95" class="header-mark"></a>近邻法</h2><h3 id="最近邻法" class="headerLink">
     <a href="#%e6%9c%80%e8%bf%91%e9%82%bb%e6%b3%95" class="header-mark"></a>最近邻法</h3><p>以距离新样本最近已知样本作为新样本的类别</p>
@@ -487,8 +488,8 @@ $$</p>
     <a href="#%e5%8e%8b%e7%bc%a9%e8%bf%91%e9%82%bb%e6%b3%95" class="header-mark"></a>压缩近邻法</h3><p>将样本分为储存集$X_S$与备选集$X_G$，若$X_G$中的样本x能用$X_S$中的样本进行正确分类，则留在$X_G$中，反之移入$X_S$</p>
 <h2 id="特征选择" class="headerLink">
     <a href="#%e7%89%b9%e5%be%81%e9%80%89%e6%8b%a9" class="header-mark"></a>特征选择</h2><h3 id="基于类内类间距离的可分性判据" class="headerLink">
-    <a href="#%e5%9f%ba%e4%ba%8e%e7%b1%bb%e5%86%85%e7%b1%bb%e9%97%b4%e8%b7%9d%e7%a6%bb%e7%9a%84%e5%8f%af%e5%88%86%e6%80%a7%e5%88%a4%e6%8d%ae" class="header-mark"></a>基于类内类间距离的可分性判据</h3><p>常用可分性判据：
-$$
+    <a href="#%e5%9f%ba%e4%ba%8e%e7%b1%bb%e5%86%85%e7%b1%bb%e9%97%b4%e8%b7%9d%e7%a6%bb%e7%9a%84%e5%8f%af%e5%88%86%e6%80%a7%e5%88%a4%e6%8d%ae" class="header-mark"></a>基于类内类间距离的可分性判据</h3><p>常用可分性判据：</p>
+<p>$$
 J_1=tr(S_w+S_b) \
 J_2 = tr(S_w^1S_b) \
 J_3 = ln\frac{|S_b|}{|S_w|} \
@@ -496,8 +497,8 @@ J_4 = \frac{trS_b}{trS_w} \
 J_5 = \frac{|S_b-S_w|}{|S_w|}
 $$</p>
 <h3 id="基于概率分布的可分性判据" class="headerLink">
-    <a href="#%e5%9f%ba%e4%ba%8e%e6%a6%82%e7%8e%87%e5%88%86%e5%b8%83%e7%9a%84%e5%8f%af%e5%88%86%e6%80%a7%e5%88%a4%e6%8d%ae" class="header-mark"></a>基于概率分布的可分性判据</h3><p>常用的概率距离度量：
-$$
+    <a href="#%e5%9f%ba%e4%ba%8e%e6%a6%82%e7%8e%87%e5%88%86%e5%b8%83%e7%9a%84%e5%8f%af%e5%88%86%e6%80%a7%e5%88%a4%e6%8d%ae" class="header-mark"></a>基于概率分布的可分性判据</h3><p>常用的概率距离度量：</p>
+<p>$$
 J_B = - ln\int[p(x|\omega_1)p(x|\omega_2)]^{1/2}dx \
 J_C = - ln\int[p^s(x|\omega_1)p^{1-s}(x|\omega_2)]dx \
 J_D = - ln\int[p(x|\omega_1)-p(x|\omega_2)]ln\dfrac{p(x|\omega_1)}{p(x|\omega_2)}dx
@@ -517,13 +518,13 @@ $$</p>
 <li>若没有极小点，继续用下一个本征值对应的本征向量做投影方向</li>
 </ul>
 <h3 id="动态聚类算法" class="headerLink">
-    <a href="#%e5%8a%a8%e6%80%81%e8%81%9a%e7%b1%bb%e7%ae%97%e6%b3%95" class="header-mark"></a>动态聚类算法</h3><p>C均值算法：
-$$
+    <a href="#%e5%8a%a8%e6%80%81%e8%81%9a%e7%b1%bb%e7%ae%97%e6%b3%95" class="header-mark"></a>动态聚类算法</h3><p>C均值算法：</p>
+<p>$$
 J_e = \sum_{i=1}^c\sum_{y\in\Gamma_i}||y-m_i||^2=\sum_{i=1}^cJ_i
 $$</p>
 <h3 id="模糊聚类算法" class="headerLink">
-    <a href="#%e6%a8%a1%e7%b3%8a%e8%81%9a%e7%b1%bb%e7%ae%97%e6%b3%95" class="header-mark"></a>模糊聚类算法</h3><p>模糊C均值算法：
-$$
+    <a href="#%e6%a8%a1%e7%b3%8a%e8%81%9a%e7%b1%bb%e7%ae%97%e6%b3%95" class="header-mark"></a>模糊聚类算法</h3><p>模糊C均值算法：</p>
+<p>$$
 min\ J_e =min\ \sum_{i=1}^c\sum_{y\in\Gamma_i}||y-m_i||^2=\sum_{i=1}^cJ_i
 $$</p>
 <h3 id="分级聚类方法" class="headerLink">
@@ -531,6 +532,18 @@ $$</p>
 </div>
 
         
+
+
+<h2>Related Content</h2>
+<div class="related-container">
+    <div class="related-item-container">
+            <h2 class="related-title">
+                <a href="/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/">通信知识点总结</a>
+            </h2>
+        </div>
+    
+
+</div>
 
 <div class="post-footer" id="post-footer">
     <div class="post-info">
@@ -542,7 +555,7 @@ $$</p>
         </div>
         <div class="post-info-line print:!tw-hidden">
             <div class="post-info-md"></div>
-            <div class="post-info-share"><button title="Share on Twitter" data-sharer="twitter" data-url="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" data-title="模式识别" data-hashtags="机器学习,模式识别"><svg class="icon"
+            <div class="post-info-share"><button title="Share on Twitter" data-sharer="twitter" data-url="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" data-title="模式识别" data-hashtags="机器学习,模式识别,期末复习"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg></button><button title="Share on Facebook" data-sharer="facebook" data-url="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" data-hashtag="机器学习"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg></button><button title="Share on WhatsApp" data-sharer="whatsapp" data-url="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" data-title="模式识别" data-web><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></button><button title="Share on Line" data-sharer="line" data-url="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" data-title="模式识别"><svg class="icon" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LINE</title><path d="M19.365 9.863c.349 0 .63.285.63.631 0 .345-.281.63-.63.63H17.61v1.125h1.755c.349 0 .63.283.63.63 0 .344-.281.629-.63.629h-2.386c-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63h2.386c.346 0 .627.285.627.63 0 .349-.281.63-.63.63H17.61v1.125h1.755zm-3.855 3.016c0 .27-.174.51-.432.596-.064.021-.133.031-.199.031-.211 0-.391-.09-.51-.25l-2.443-3.317v2.94c0 .344-.279.629-.631.629-.346 0-.626-.285-.626-.629V8.108c0-.27.173-.51.43-.595.06-.023.136-.033.194-.033.195 0 .375.104.495.254l2.462 3.33V8.108c0-.345.282-.63.63-.63.345 0 .63.285.63.63v4.771zm-5.741 0c0 .344-.282.629-.631.629-.345 0-.627-.285-.627-.629V8.108c0-.345.282-.63.63-.63.346 0 .628.285.628.63v4.771zm-2.466.629H4.917c-.345 0-.63-.285-.63-.629V8.108c0-.345.285-.63.63-.63.348 0 .63.285.63.63v4.141h1.756c.348 0 .629.283.629.63 0 .344-.282.629-.629.629M24 10.314C24 4.943 18.615.572 12 .572S0 4.943 0 10.314c0 4.811 4.27 8.842 10.035 9.608.391.082.923.258 1.058.59.12.301.079.766.038 1.08l-.164 1.02c-.045.301-.24 1.186 1.049.645 1.291-.539 6.916-4.078 9.436-6.975C23.176 14.393 24 12.458 24 10.314"/></svg></button><button title="Share on 微博" data-sharer="weibo" data-url="https://akira-uestc.github.io/posts/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/" data-title="模式识别"><svg class="icon"
@@ -554,7 +567,7 @@ $$</p>
 
     <div class="post-info-more">
         <section class="post-tags"><svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>&nbsp;<a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a>,&nbsp;<a href="/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/">模式识别</a></section>
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.941 225.941L286.059 14.059A48 48 0 0 0 252.118 0H48C21.49 0 0 21.49 0 48v204.118a48 48 0 0 0 14.059 33.941l211.882 211.882c18.744 18.745 49.136 18.746 67.882 0l204.118-204.118c18.745-18.745 18.745-49.137 0-67.882zM112 160c-26.51 0-48-21.49-48-48s21.49-48 48-48 48 21.49 48 48-21.49 48-48 48zm513.941 133.823L421.823 497.941c-18.745 18.745-49.137 18.745-67.882 0l-.36-.36L527.64 323.522c16.999-16.999 26.36-39.6 26.36-63.64s-9.362-46.641-26.36-63.64L331.397 0h48.721a48 48 0 0 1 33.941 14.059l211.882 211.882c18.745 18.745 18.745 49.137 0 67.882z"/></svg>&nbsp;<a href="/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/">机器学习</a>,&nbsp;<a href="/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/">模式识别</a>,&nbsp;<a href="/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/">期末复习</a></section>
         <section class="print:!tw-hidden">
             <span><button class="tw-text-fgColor-link-muted hover:tw-text-fgColor-link-muted-hover" onclick="window.history.back();">Back</button></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
         </section>
@@ -562,7 +575,7 @@ $$</p>
 
     <div class="post-nav print:tw-hidden"><a href="/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/" class="prev" rel="prev" title="树莓派5串口调试"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M31.7 239l136-136c9.4-9.4 24.6-9.4 33.9 0l22.6 22.6c9.4 9.4 9.4 24.6 0 33.9L127.9 256l96.4 96.4c9.4 9.4 9.4 24.6 0 33.9L201.7 409c-9.4 9.4-24.6 9.4-33.9 0l-136-136c-9.5-9.4-9.5-24.6-.1-34z"/></svg>树莓派5串口调试</a>
-            <a href="/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/" class="next" rel="next" title="使用xwayland运行ros&#43;gazebo&#43;rviz">使用xwayland运行ros&#43;gazebo&#43;rviz<svg class="icon"
+            <a href="/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/" class="next" rel="next" title="使用xwayland运行ros&#43;gazebo&#43;rviz">使用xwayland运行ros&#43;gazebo&#43;rviz<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"/></svg></a></div>
 </div>
 <div id="comments" class="print:!tw-hidden tw-pt-32 tw-pb-8"><div id="telegram-comments" class="comment"><script type="text/javascript" src="https://comments.app/js/widget.js?3" defer  data-comments-app-website="" data-limit="5" data-colorful="1"></script>

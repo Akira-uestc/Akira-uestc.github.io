@@ -7,7 +7,7 @@
     <meta name="robots" content="noodp" /><title>树莓派5串口调试 - Akira&#39;s blog</title><meta name="Description" content="図書室でしか見たことない世界 確かめたい"><meta property="og:url" content="https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/">
   <meta property="og:site_name" content="Akira&#39;s blog">
   <meta property="og:title" content="树莓派5串口调试">
-  <meta property="og:description" content="在树莓派5上使用串口与外部设备通信时碰到的问题及解决">
+  <meta property="og:description" content="在树莓派5上使用串口与外部设备通信时碰到的问题及解决方法">
   <meta property="og:locale" content="zh_cn">
   <meta property="og:type" content="article">
     <meta property="article:section" content="posts">
@@ -20,7 +20,7 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="https://akira-uestc.github.io/img/Akira.jpeg">
   <meta name="twitter:title" content="树莓派5串口调试">
-  <meta name="twitter:description" content="在树莓派5上使用串口与外部设备通信时碰到的问题及解决">
+  <meta name="twitter:description" content="在树莓派5上使用串口与外部设备通信时碰到的问题及解决方法">
 <meta name="application-name" content="DoIt">
 <meta name="apple-mobile-web-app-title" content="DoIt">
 
@@ -35,7 +35,7 @@
         "mainEntityOfPage": {
             "@type": "WebPage",
             "@id": "https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/"
-        },"genre": "posts","keywords":["计算机","树莓派"],"wordcount":  394 ,
+        },"genre": "posts","keywords":["计算机","树莓派"],"wordcount":  408 ,
         "url": "https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/","datePublished": "2025-05-07T01:38:31+08:00","dateModified": "2025-05-07T01:38:31+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
@@ -185,7 +185,7 @@
             <div class="post-meta-line"><svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M148 288h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm108-12v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 96v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm-96 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm192 0v-40c0-6.6-5.4-12-12-12h-40c-6.6 0-12 5.4-12 12v40c0 6.6 5.4 12 12 12h40c6.6 0 12-5.4 12-12zm96-260v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h48V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h128V12c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v52h48c26.5 0 48 21.5 48 48zm-48 346V160H48v298c0 3.3 2.7 6 6 6h340c3.3 0 6-2.7 6-6z"/></svg>&nbsp;<time datetime="2025-05-07">2025-05-07</time>&nbsp;<svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M402.3 344.9l32-32c5-5 13.7-1.5 13.7 5.7V464c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V112c0-26.5 21.5-48 48-48h273.5c7.1 0 10.7 8.6 5.7 13.7l-32 32c-1.5 1.5-3.5 2.3-5.7 2.3H48v352h352V350.5c0-2.1.8-4.1 2.3-5.6zm156.6-201.8L296.3 405.7l-90.4 10c-26.2 2.9-48.5-19.2-45.6-45.6l10-90.4L432.9 17.1c22.9-22.9 59.9-22.9 82.7 0l43.2 43.2c22.9 22.9 22.9 60 .1 82.8zM460.1 174L402 115.9 216.2 301.8l-7.3 65.3 65.3-7.3L460.1 174zm64.8-79.7l-43.2-43.2c-4.1-4.1-10.8-4.1-14.8 0L436 82l58.1 58.1 30.9-30.9c4-4.2 4-10.8-.1-14.9z"/></svg>&nbsp;<time datetime="2025-05-07">2025-05-07</time>&nbsp;<svg class="icon"
-    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;394 words&nbsp;
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M497.9 142.1l-46.1 46.1c-4.7 4.7-12.3 4.7-17 0l-111-111c-4.7-4.7-4.7-12.3 0-17l46.1-46.1c18.7-18.7 49.1-18.7 67.9 0l60.1 60.1c18.8 18.7 18.8 49.1 0 67.9zM284.2 99.8L21.6 362.4.4 483.9c-2.9 16.4 11.4 30.6 27.8 27.8l121.5-21.3 262.6-262.6c4.7-4.7 4.7-12.3 0-17l-111-111c-4.8-4.7-12.4-4.7-17.1 0zM124.1 339.9c-5.5-5.5-5.5-14.3 0-19.8l154-154c5.5-5.5 14.3-5.5 19.8 0s5.5 14.3 0 19.8l-154 154c-5.5 5.5-14.3 5.5-19.8 0zM88 424h48v36.3l-64.5 11.3-31.1-31.1L51.7 376H88v48z"/></svg>&nbsp;408 words&nbsp;
                     <svg class="icon"
     xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!-- Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) --><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"/></svg>&nbsp;2 minutes&nbsp;</div>
         </div><div class="details toc print:!tw-block" id="toc-static"  kept="true">
@@ -204,14 +204,14 @@
             </div><div class="content" id="content" data-pagefind-body><p>在完成一个物联网项目时，尝试以stm32作为数据采集设备，通过树莓派与stm32通信</p>
 <h2 id="配置" class="headerLink">
     <a href="#%e9%85%8d%e7%bd%ae" class="header-mark"></a>配置</h2><p>我们需要通过raspi_config禁止串口登陆以释放串口设备给程序使用，同时保留硬件串口</p>
-<p>运行<code>sudo raspi_config</code>，选择<code>Interface Options</code></p>
+<p>运行 <code>sudo raspi_config</code>，选择 <code>Interface Options</code></p>
 <p><img class="tw-inline" loading="lazy" src='/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/entry.png' srcset="/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/entry_hu_ba27e38eda711cf7.webp 800w, /posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/entry_hu_8f3c740204effbd5.webp 1200w, /posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/entry_hu_1acc4ac72eb112b5.webp 1600w"  alt="menu" height="720" width="1200"></p>
-<p>选择<code>Serial Port</code></p>
+<p>选择 <code>Serial Port</code></p>
 <p><img class="tw-inline" loading="lazy" src='/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/serial.png' srcset="/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/serial_hu_dd9157b2cce33625.webp 800w, /posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/serial_hu_b10a039e6e8c178.webp 1200w, /posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/serial_hu_4a396e39dd6ae675.webp 1600w"  alt="menu" height="720" width="1200"></p>
-<p>随后在提示符<code>Would you like a login shell to be accessible over serial?</code>下选择<code>No</code></p>
-<p>在提示符<code>Would you like the serial port hardware to be enabled?</code>下选择Yes</p>
+<p>随后在提示符 <code>Would you like a login shell to be accessible over serial?</code>下选择 <code>No</code></p>
+<p>在提示符 <code>Would you like the serial port hardware to be enabled?</code>下选择Yes</p>
 <p>保存退出并重启树莓派</p>
-<p>打开并编辑<code>/boot/firmeare/config.txt</code>，将文件末尾修改如下：</p>
+<p>打开并编辑 <code>/boot/firmeare/config.txt</code>，将文件末尾修改如下：</p>
 <div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
@@ -306,7 +306,7 @@
 </div>
 <p>若要使用其他次UART也可考虑禁用蓝牙控制器</p>
 <h2 id="问题" class="headerLink">
-    <a href="#%e9%97%ae%e9%a2%98" class="header-mark"></a>问题</h2><p>根据<a href="https://www.raspberrypi.com/documentation/computers/configuration.html#configure-uarts" target="_blank" rel="noopener noreferrer">树莓派官网介绍</a>：树莓派5包含5个PL011 UART，不包含mini UART，除<code>UART0</code>外其他默认情况下禁用。</p>
+    <a href="#%e9%97%ae%e9%a2%98" class="header-mark"></a>问题</h2><p>根据<a href="https://www.raspberrypi.com/documentation/computers/configuration.html#configure-uarts" target="_blank" rel="noopener noreferrer">树莓派官网介绍</a>：树莓派5包含5个PL011 UART，不包含mini UART，除 <code>UART0</code>外其他默认情况下禁用。</p>
 
 <div class="table-wrapper">
   <table>
@@ -367,8 +367,8 @@
     </tbody>
   </table>
 </div>
-<p>同时又在下面指出<code>/dev/serial0</code>会通过符号链接指向<code>/dev/ttyAMA0</code>(因为树莓派5不包含mini UART)</p>
-<p>实际上，查看<code>/dev/</code>可以看到：</p>
+<p>同时又在下面指出 <code>/dev/serial0</code>会通过符号链接指向 <code>/dev/ttyAMA0</code>(因为树莓派5不包含mini UART)</p>
+<p>实际上，查看 <code>/dev/</code>可以看到：</p>
 <div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
@@ -463,10 +463,10 @@
 </span></span><span style="display:flex;"><span>crw-rw---- <span style="color:#ae81ff">1</span> root dialout 204,  <span style="color:#ae81ff">64</span> May  <span style="color:#ae81ff">6</span> 23:15 ttyAMA0
 </span></span><span style="display:flex;"><span>crw-rw---- <span style="color:#ae81ff">1</span> root dialout 204,  <span style="color:#ae81ff">74</span> May  <span style="color:#ae81ff">6</span> 23:07 ttyAMA10</span></span></code></pre>
 </div>
-<p>使用<code>/dev/serial0</code>通常是一个安全的选择，但它似乎被错误指向了<code>/dev/ttyAMA10</code>，这是板上SH1.0的3p端口。因此在调试UART时，若希望不禁用蓝牙连接而使用三针UART，应直接使用<code>/dev/ttyAMA0</code>这个设备来访问UART0</p>
+<p>使用 <code>/dev/serial0</code>通常是一个安全的选择，但它似乎被错误指向了 <code>/dev/ttyAMA10</code>，这是板上SH1.0的3p端口。因此在调试UART时，若希望不禁用蓝牙连接而使用三针UART，应直接使用 <code>/dev/ttyAMA0</code>这个设备来访问UART0</p>
 <h2 id="程序" class="headerLink">
     <a href="#%e7%a8%8b%e5%ba%8f" class="header-mark"></a>程序</h2><p>串口配置：</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -579,7 +579,7 @@
 </span></span><span style="display:flex;"><span>}</span></span></code></pre>
 </div>
 <p>接收线程，包含字节检测：</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -704,7 +704,7 @@
 </span></span><span style="display:flex;"><span>}</span></span></code></pre>
 </div>
 <p>发送线程：</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 
@@ -823,7 +823,7 @@
 </span></span><span style="display:flex;"><span>}</span></span></code></pre>
 </div>
 <p>主程序：</p>
-<div class="code-block highlight is-closed show-line-numbers is-wrap tw-group tw-my-2">
+<div class="code-block highlight is-open show-line-numbers is-wrap tw-group tw-my-2">
   <div class="
     
     tw-flex 

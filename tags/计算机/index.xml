@@ -15,7 +15,7 @@
       <link>https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</link>
       <pubDate>Wed, 07 May 2025 01:38:31 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
       <guid>https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</guid>
-      <description>在树莓派5上使用串口与外部设备通信时碰到的问题及解决</description>
+      <description>在树莓派5上使用串口与外部设备通信时碰到的问题及解决方法</description>
     </item>
     <item>
       <title>系统调用实现（RISC V）</title>

@@ -8,10 +8,10 @@
             <atom:link href="https://akira-uestc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>使用xwayland运行ros&#43;gazebo&#43;rviz</title>
-    <link>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</link>
+    <link>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</link>
     <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
         <name>Akira</name>
-    </author><guid>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</guid>
+    </author><guid>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</guid>
     <description><![CDATA[在 Arch Linux 下通过 Docker 运行 ROS Noetic 并通过 XWayland 显示机器人仿真 GUI，包括 Gazebo 与 RViz 的可视化支持]]></description>
 </item><item>
     <title>模式识别</title>
@@ -26,7 +26,7 @@
     <pubDate>Wed, 07 May 2025 01:38:31 &#43;0800</pubDate><author>
         <name>Akira</name>
     </author><guid>https://akira-uestc.github.io/posts/%E6%A0%91%E8%8E%93%E6%B4%BE5%E4%B8%B2%E5%8F%A3%E8%B0%83%E8%AF%95/</guid>
-    <description><![CDATA[在树莓派5上使用串口与外部设备通信时碰到的问题及解决]]></description>
+    <description><![CDATA[在树莓派5上使用串口与外部设备通信时碰到的问题及解决方法]]></description>
 </item><item>
     <title>工程数学基础</title>
     <link>https://akira-uestc.github.io/posts/%E5%B7%A5%E7%A8%8B%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/</link>
