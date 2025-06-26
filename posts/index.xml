@@ -4,7 +4,14 @@
         <link>https://akira-uestc.github.io/posts/</link>
         <description>All Posts | Akira&#39;s blog</description>
         <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
-            <webMaster>akira.uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+            <webMaster>akira.uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>尝试在qemu上启动Arch Linux RISC-V</title>
+    <link>https://akira-uestc.github.io/posts/%E5%B0%9D%E8%AF%95%E5%9C%A8qemu%E4%B8%8A%E5%90%AF%E5%8A%A8arch-linux-risc-v/</link>
+    <pubDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/posts/%E5%B0%9D%E8%AF%95%E5%9C%A8qemu%E4%B8%8A%E5%90%AF%E5%8A%A8arch-linux-risc-v/</guid>
+    <description><![CDATA[尝试在QEMU上运行Arch Linux的RISC-V port，使用由https://archriscv.felixc.at/提供的rootfs]]></description>
+</item><item>
     <title>使用xwayland运行ros&#43;gazebo&#43;rviz</title>
     <link>https://akira-uestc.github.io/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</link>
     <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
@@ -67,12 +74,5 @@
         <name>Akira</name>
     </author><guid>https://akira-uestc.github.io/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
     <description><![CDATA[在“一生一芯”学习阶段，使用verilator进行仿真，学习了基本命令和使用方法，并提供了一个波形显示模板]]></description>
-</item><item>
-    <title>通信知识点总结</title>
-    <link>https://akira-uestc.github.io/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</link>
-    <pubDate>Mon, 10 Jun 2024 14:56:34 &#43;0800</pubDate><author>
-        <name>Akira</name>
-    </author><guid>https://akira-uestc.github.io/posts/%E9%80%9A%E4%BF%A1%E7%9F%A5%E8%AF%86%E7%82%B9%E6%80%BB%E7%BB%93/</guid>
-    <description><![CDATA[计算机网络课程期末复习知识点总结]]></description>
 </item></channel>
 </rss>
