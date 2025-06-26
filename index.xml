@@ -1,9 +1,9 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>Akira&#39;s blog</title>
+        <title></title>
         <link>https://akira-uestc.github.io/</link>
         <description>図書室でしか見たことない世界 確かめたい</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-cn</language><managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
             <webMaster>akira.uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</lastBuildDate>
             <atom:link href="https://akira-uestc.github.io/index.xml" rel="self" type="application/rss+xml" />
         <item>

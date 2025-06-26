@@ -1,161 +1,78 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Tags on Akira&#39;s blog</title>
-    <link>https://akira-uestc.github.io/tags/</link>
-    <description>Recent content in Tags on Akira&#39;s blog</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
-    <webMaster>akira.uestc@gmail.com (Akira)</webMaster>
-    <lastBuildDate>Fri, 27 Jun 2025 00:20:03 +0800</lastBuildDate>
-    <atom:link href="https://akira-uestc.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Arch Linux</title>
-      <link>https://akira-uestc.github.io/tags/arch-linux/</link>
-      <pubDate>Fri, 27 Jun 2025 00:20:03 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/arch-linux/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>QEMU</title>
-      <link>https://akira-uestc.github.io/tags/qemu/</link>
-      <pubDate>Fri, 27 Jun 2025 00:20:03 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/qemu/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>RISC-V</title>
-      <link>https://akira-uestc.github.io/tags/risc-v/</link>
-      <pubDate>Fri, 27 Jun 2025 00:20:03 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/risc-v/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Docker</title>
-      <link>https://akira-uestc.github.io/tags/docker/</link>
-      <pubDate>Fri, 06 Jun 2025 00:19:16 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/docker/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ROS</title>
-      <link>https://akira-uestc.github.io/tags/ros/</link>
-      <pubDate>Fri, 06 Jun 2025 00:19:16 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/ros/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Xwayland</title>
-      <link>https://akira-uestc.github.io/tags/xwayland/</link>
-      <pubDate>Fri, 06 Jun 2025 00:19:16 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/xwayland/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>期末复习</title>
-      <link>https://akira-uestc.github.io/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</link>
-      <pubDate>Sun, 25 May 2025 15:32:58 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>机器学习</title>
-      <link>https://akira-uestc.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
-      <pubDate>Sun, 25 May 2025 15:32:58 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>模式识别</title>
-      <link>https://akira-uestc.github.io/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</link>
-      <pubDate>Sun, 25 May 2025 15:32:58 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>树莓派</title>
-      <link>https://akira-uestc.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</link>
-      <pubDate>Wed, 07 May 2025 01:38:31 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%A0%91%E8%8E%93%E6%B4%BE/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>计算机</title>
-      <link>https://akira-uestc.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
-      <pubDate>Wed, 07 May 2025 01:38:31 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>控制工程</title>
-      <link>https://akira-uestc.github.io/tags/%E6%8E%A7%E5%88%B6%E5%B7%A5%E7%A8%8B/</link>
-      <pubDate>Thu, 03 Apr 2025 01:08:24 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%8E%A7%E5%88%B6%E5%B7%A5%E7%A8%8B/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>数学</title>
-      <link>https://akira-uestc.github.io/tags/%E6%95%B0%E5%AD%A6/</link>
-      <pubDate>Thu, 03 Apr 2025 01:08:24 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%95%B0%E5%AD%A6/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>操作系统</title>
-      <link>https://akira-uestc.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
-      <pubDate>Thu, 20 Feb 2025 01:15:04 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>系统调用</title>
-      <link>https://akira-uestc.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8/</link>
-      <pubDate>Thu, 20 Feb 2025 01:15:04 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ISA</title>
-      <link>https://akira-uestc.github.io/tags/isa/</link>
-      <pubDate>Wed, 19 Feb 2025 10:15:05 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/isa/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Shell</title>
-      <link>https://akira-uestc.github.io/tags/shell/</link>
-      <pubDate>Tue, 22 Oct 2024 10:41:33 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/shell/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>嵌入式</title>
-      <link>https://akira-uestc.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</link>
-      <pubDate>Fri, 23 Aug 2024 16:38:34 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E5%B5%8C%E5%85%A5%E5%BC%8F/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>通信</title>
-      <link>https://akira-uestc.github.io/tags/%E9%80%9A%E4%BF%A1/</link>
-      <pubDate>Mon, 10 Jun 2024 14:56:34 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E9%80%9A%E4%BF%A1/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>ARM</title>
-      <link>https://akira-uestc.github.io/tags/arm/</link>
-      <pubDate>Sun, 28 Apr 2024 00:12:32 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/arm/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>汇编</title>
-      <link>https://akira-uestc.github.io/tags/%E6%B1%87%E7%BC%96/</link>
-      <pubDate>Sun, 28 Apr 2024 00:12:32 +0800</pubDate><author>akira.uestc@gmail.com (Akira)</author>
-      <guid>https://akira-uestc.github.io/tags/%E6%B1%87%E7%BC%96/</guid>
-      <description></description>
-    </item>
-  </channel>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tags - 标签 - </title>
+        <link>https://akira-uestc.github.io/tags/</link>
+        <description>Tags - 标签 - </description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><managingEditor>akira.uestc@gmail.com (Akira)</managingEditor>
+            <webMaster>akira.uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Arch Linux</title>
+    <link>https://akira-uestc.github.io/tags/arch-linux/</link>
+    <pubDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/arch-linux/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>QEMU</title>
+    <link>https://akira-uestc.github.io/tags/qemu/</link>
+    <pubDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/qemu/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>RISC-V</title>
+    <link>https://akira-uestc.github.io/tags/risc-v/</link>
+    <pubDate>Fri, 27 Jun 2025 00:20:03 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/risc-v/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Docker</title>
+    <link>https://akira-uestc.github.io/tags/docker/</link>
+    <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/docker/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>ROS</title>
+    <link>https://akira-uestc.github.io/tags/ros/</link>
+    <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/ros/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Xwayland</title>
+    <link>https://akira-uestc.github.io/tags/xwayland/</link>
+    <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/xwayland/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>机器学习</title>
+    <link>https://akira-uestc.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</link>
+    <pubDate>Sun, 25 May 2025 15:32:58 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>模式识别</title>
+    <link>https://akira-uestc.github.io/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</link>
+    <pubDate>Sun, 25 May 2025 15:32:58 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/%E6%A8%A1%E5%BC%8F%E8%AF%86%E5%88%AB/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>期末复习</title>
+    <link>https://akira-uestc.github.io/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</link>
+    <pubDate>Sun, 25 May 2025 15:32:58 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/%E6%9C%9F%E6%9C%AB%E5%A4%8D%E4%B9%A0/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>计算机</title>
+    <link>https://akira-uestc.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</link>
+    <pubDate>Wed, 07 May 2025 01:38:31 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/</guid>
+    <description><![CDATA[]]></description>
+</item></channel>
 </rss>
