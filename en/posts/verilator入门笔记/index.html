@@ -686,16 +686,16 @@ sudo make install</code></pre></code></pre>
       tw-overflow-x-auto
       tw-scrollbar-thin
       "><span style="display:flex;"><span><span style="color:#a6e22e">all</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>	@verilator --trace -Wall --cc vsrc/our_OnOff.v --exe csrc/main.c 
-</span></span><span style="display:flex;"><span>	@make -C obj_dir -f Vour_OnOff.mk Vour_OnOff
+</span></span><span style="display:flex;"><span> @verilator --trace -Wall --cc vsrc/our_OnOff.v --exe csrc/main.c 
+</span></span><span style="display:flex;"><span> @make -C obj_dir -f Vour_OnOff.mk Vour_OnOff
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">sim</span><span style="color:#f92672">:</span> all
-</span></span><span style="display:flex;"><span>	@./obj_dir/Vour_OnOff
-</span></span><span style="display:flex;"><span>	@gtkwave wave.vcd
+</span></span><span style="display:flex;"><span> @./obj_dir/Vour_OnOff
+</span></span><span style="display:flex;"><span> @gtkwave wave.vcd
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#a6e22e">clean</span><span style="color:#f92672">:</span>
-</span></span><span style="display:flex;"><span>	@rm -rf ./obj_dir/
-</span></span><span style="display:flex;"><span>	@rm wave.vcd
+</span></span><span style="display:flex;"><span> @rm -rf ./obj_dir/
+</span></span><span style="display:flex;"><span> @rm wave.vcd
 </span></span></code></pre>
 </div>
 <p><code>all</code> target: Uses Verilator to generate C library and Makefile (<code>Vour_OnOff.mk</code>), and compiles the code with make.</p>
