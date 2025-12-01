@@ -616,7 +616,7 @@
       tw-overflow-y-hidden
       tw-overflow-x-auto
       tw-scrollbar-thin
-      "><span style="display:flex;"><span>qemu-img create -f raw archriscv.qcow2 -o nocow<span style="color:#f92672">=</span>on 10G</span></span></code></pre>
+      "><span style="display:flex;"><span>qemu-img create -f raw archriscv.img -o nocow<span style="color:#f92672">=</span>on 10G</span></span></code></pre>
 </div>
 <blockquote>
   <p>Enable <code>nocow</code> for btrfs file system.</p>
@@ -809,7 +809,7 @@
       tw-overflow-x-auto
       tw-scrollbar-thin
       "><span style="display:flex;"><span>cd ..
-</span></span><span style="display:flex;"><span>parted --script archriscv.qcow2 mklabel gpt <span style="color:#ae81ff">\
+</span></span><span style="display:flex;"><span>parted --script archriscv.img mklabel gpt <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    mkpart primary ext4 1MiB 100% <span style="color:#ae81ff">\
 </span></span></span><span style="display:flex;"><span><span style="color:#ae81ff"></span>    set <span style="color:#ae81ff">1</span> boot on</span></span></code></pre>
 </div>
@@ -903,7 +903,7 @@
       tw-overflow-y-hidden
       tw-overflow-x-auto
       tw-scrollbar-thin
-      "><span style="display:flex;"><span>LOOP<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>sudo losetup -fP --show archriscv.qcow2<span style="color:#66d9ef">)</span>
+      "><span style="display:flex;"><span>LOOP<span style="color:#f92672">=</span><span style="color:#66d9ef">$(</span>sudo losetup -fP --show archriscv.img<span style="color:#66d9ef">)</span>
 </span></span><span style="display:flex;"><span>sudo mkfs.ext4 <span style="color:#e6db74">${</span>LOOP<span style="color:#e6db74">}</span>p1 -L rootfs
 </span></span><span style="display:flex;"><span>sudo mkdir -p /mnt/riscv-root
 </span></span><span style="display:flex;"><span>sudo mount <span style="color:#e6db74">${</span>LOOP<span style="color:#e6db74">}</span>p1 /mnt/riscv-root</span></span></code></pre>
@@ -1096,7 +1096,7 @@
       "><span style="display:flex;"><span><span style="color:#75715e">#!/bin/bash
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>
 </span></span><span style="display:flex;"><span>KERNEL_IMAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;linux/arch/riscv/boot/Image&#34;</span>
-</span></span><span style="display:flex;"><span>ROOTFS_IMAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;archriscv.qcow2&#34;</span>
+</span></span><span style="display:flex;"><span>ROOTFS_IMAGE<span style="color:#f92672">=</span><span style="color:#e6db74">&#34;archriscv.img&#34;</span>
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>sudo ip tuntap add dev tap0 mode tap
 </span></span><span style="display:flex;"><span>sudo ip link set tap0 up
