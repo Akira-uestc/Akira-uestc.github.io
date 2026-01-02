@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Embedded - Tag - Akira&#39;s Blog</title>
+        <link>https://akira-uestc.github.io/en/tags/embedded/</link>
+        <description>Embedded - Tag - Akira&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>akira-uestc@gmail.com (Akira)</managingEditor>
+            <webMaster>akira-uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 23 Aug 2024 16:38:34 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/en/tags/embedded/" rel="self" type="application/rss+xml" /><item>
+    <title>Getting Started with Verilator</title>
+    <link>https://akira-uestc.github.io/en/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</link>
+    <pubDate>Fri, 23 Aug 2024 16:38:34 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/en/posts/verilator%E5%85%A5%E9%97%A8%E7%AC%94%E8%AE%B0/</guid>
+    <description><![CDATA[During the &ldquo;Yi Sheng Yi Xin&rdquo; learning phase, Verilator was used for simulation. Basic commands and usage were learned, and a waveform display template is provided.]]></description>
+</item></channel>
+</rss>

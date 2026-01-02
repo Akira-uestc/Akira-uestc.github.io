@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>ROS - Tag - Akira&#39;s Blog</title>
+        <link>https://akira-uestc.github.io/en/tags/ros/</link>
+        <description>ROS - Tag - Akira&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>akira-uestc@gmail.com (Akira)</managingEditor>
+            <webMaster>akira-uestc@gmail.com (Akira)</webMaster><lastBuildDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/en/tags/ros/" rel="self" type="application/rss+xml" /><item>
+    <title>Running ros&#43;gazebo&#43;rviz with xwayland</title>
+    <link>https://akira-uestc.github.io/en/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</link>
+    <pubDate>Fri, 06 Jun 2025 00:19:16 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/en/posts/%E4%BD%BF%E7%94%A8xwayland&#43;docker%E8%BF%90%E8%A1%8Cros&#43;gazebo&#43;rviz/</guid>
+    <description><![CDATA[Run ROS Noetic via Docker and display robot simulation GUI through XWayland under Arch Linux, including visualization support for Gazebo and RViz]]></description>
+</item></channel>
+</rss>

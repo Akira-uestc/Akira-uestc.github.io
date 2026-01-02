@@ -1,0 +1,15 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>操作系统 - Tag - Akira&#39;s Blog</title>
+        <link>https://akira-uestc.github.io/en/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/</link>
+        <description>操作系统 - Tag - Akira&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>akira-uestc@gmail.com (Akira)</managingEditor>
+            <webMaster>akira-uestc@gmail.com (Akira)</webMaster><lastBuildDate>Thu, 20 Feb 2025 01:15:04 &#43;0800</lastBuildDate><atom:link href="https://akira-uestc.github.io/en/tags/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/" rel="self" type="application/rss+xml" /><item>
+    <title>系统调用实现（RISC V）</title>
+    <link>https://akira-uestc.github.io/en/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</link>
+    <pubDate>Thu, 20 Feb 2025 01:15:04 &#43;0800</pubDate><author>
+        <name>Akira</name>
+    </author><guid>https://akira-uestc.github.io/en/posts/%E7%B3%BB%E7%BB%9F%E8%B0%83%E7%94%A8%E5%AE%9E%E7%8E%B0risc-v/</guid>
+    <description><![CDATA[分析了rCore的系统调用实现]]></description>
+</item></channel>
+</rss>
